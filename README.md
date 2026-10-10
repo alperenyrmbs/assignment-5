@@ -16,11 +16,11 @@ Open **Assignment5_Ch_10&11 (1).ipynb** to read the assignment and implementatio
 
 ## How to explore
 
-Open the notebook in Jupyter or Google Colab. Review the input format and parsing code before running the cells; file-writing cells create local text and CSV files. The code uses Python's standard library.
+Open the notebook in Jupyter or Google Colab. Review the input format and parsing code before running the cells; file-writing cells create local text and CSV files. The code uses Python's standard library. Run the sample-data cell, the cleanup implementation cell, and then the unittest cell in that order using a Python 3 kernel. Inspect `contacts_clean.csv` afterward. The `.py` filenames in the assignment instructions are not separate files in this repository.
 
 ## Current limitations
 
-The row parser expects comma-separated name, email, and phone fields. Some supplied sample records use an angle-bracket email format that the parser does not extract. Those records may be skipped. This is a learning exercise; the tests do not establish production readiness.
+The row parser expects comma-separated name, email, and phone fields. Some supplied sample records use an angle-bracket email format that the parser does not extract. Those records may be skipped. The duplicate-handling test reimplements the deduplication logic rather than checking the cleanup function's CSV output. This is a learning exercise; the tests do not establish production readiness. The notebook was reviewed but not executed for this portfolio update.
 
 ## Context
 
